@@ -7,6 +7,9 @@ require_relative '../config/environment'
 # Prevent database truncation if the environment is production
 abort('The Rails environment is running in production mode!') if Rails.env.production?
 require 'rspec/rails'
+require 'faker'
+require 'simplecov'
+SimpleCov.start
 
 # This code loads all Ruby files in the spec/support directory and its subdirectories.
 Dir.glob(Rails.root.join('spec', 'support', '**', '*.rb')).sort.each { |file| require file }
