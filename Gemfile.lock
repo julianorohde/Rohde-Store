@@ -100,6 +100,7 @@ GEM
       devise (> 3.5.2, < 5)
       rails (>= 4.2.0, < 7.2)
     diff-lcs (1.5.1)
+    docile (1.4.0)
     drb (2.2.1)
     erubi (1.13.0)
     factory_bot (6.4.6)
@@ -255,6 +256,12 @@ GEM
     ruby-progressbar (1.13.0)
     shoulda-matchers (6.2.0)
       activesupport (>= 5.2.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     stringio (3.1.1)
     strong_migrations (1.8.0)
       activerecord (>= 5.2)
@@ -293,6 +300,7 @@ DEPENDENCIES
   rubocop-rails
   rubocop-rspec
   shoulda-matchers (~> 6.2)
+  simplecov (~> 0.22.0)
   strong_migrations (~> 1.8)
   tzinfo-data
 

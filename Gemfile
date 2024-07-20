@@ -53,6 +53,7 @@ group :development, :test do
   gem 'faker', '~> 3.4', '>= 3.4.2'
   gem 'rspec-rails', '~> 6.1', '>= 6.1.3'
   gem 'shoulda-matchers', '~> 6.2'
+  gem 'simplecov', '~> 0.22.0', require: false
 end
 
 group :development do
