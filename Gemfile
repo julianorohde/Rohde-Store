@@ -51,6 +51,7 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mswin mswin64 mingw x64_mingw]
   gem 'factory_bot_rails', '~> 6.4', '>= 6.4.3'
   gem 'faker', '~> 3.4', '>= 3.4.2'
+  gem 'pry-rails', '~> 0.3.11'
   gem 'rspec-rails', '~> 6.1', '>= 6.1.3'
   gem 'shoulda-matchers', '~> 6.2'
   gem 'simplecov', '~> 0.22.0', require: false
